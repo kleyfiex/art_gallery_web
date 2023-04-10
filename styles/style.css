@@ -1,0 +1,126 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+body {
+    margin: 0;
+    font-family: "Proxima_regular", "Arial", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding-top: 3px;
+}
+
+.container_header {
+    display: flex;
+    width: 1750px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 2px black solid;
+}
+
+.menu_ul {
+    margin-top: 40px;
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_element {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    text-decoration: none;
+}
+
+#form_to_search {
+    margin-top: 35px;
+    display: flex;
+    width: 251px;
+    height: 33px;
+}
+
+.logo {
+    margin-top: 9px;
+    width: 225px;
+    height: 90px;
+}
+
+.search_logo {
+    height: 33px;
+    border-bottom: 1px black solid;
+}
+
+.search_box {
+    width: 200px;
+    height: 33px;
+    padding-left: 10px;
+    border-bottom: 1px black solid;
+    outline:none;
+    font-family: "Proxima_regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.search_btn {
+    width: 32px;
+    height: 32px;
+    background: none;
+    cursor: pointer;
+}
+
+.search_icon {
+    background: url(../images/search_icon.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.search_box::placeholder {
+    font-family: "Proxima_regular", "Arial", sans-serif;
+}
+
+.account_icons {
+    width: 140px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon_btn {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: none;
+}
+
+.heart {
+    background: url(../images/nav_icons/heart.svg) no-repeat center center;
+}
+
+.man {
+    background: url(../images/nav_icons/man.svg) no-repeat center center;
+}
+
+.cart {
+    background: url(../images/nav_icons/cart.svg) no-repeat center center;
+}
