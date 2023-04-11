@@ -17,19 +17,31 @@ header {
     padding-top: 3px;
 }
 
+:root {
+    --main-color: black;
+}
+
+
 .container_header {
     display: flex;
-    width: 1750px;
+    width: 1650px;
     max-width: 100%;
     margin: 0 auto;
     height: 100px;
     justify-content: space-between;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     border-bottom: 2px black solid;
 }
 
+.container_main {
+    width: 1650px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
 .menu_ul {
-    margin-top: 40px;
+    margin-top: 45px;
     width: 500px;
     list-style: none;
     display: flex;
@@ -39,9 +51,9 @@ header {
 .menu_element {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -123,4 +135,216 @@ header {
 
 .cart {
     background: url(../images/nav_icons/cart.svg) no-repeat center center;
+}
+
+.main_banner {
+    padding-top: 100px;
+    margin-bottom: 280px;
+}
+
+.main_name {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.main_art {
+    margin-left: 10px;
+}
+
+.welcome {
+    font-family: 'Proxima_semibold';
+    font-size: 36px;
+    color: var(--main-color);
+}
+
+.art_gallery {
+    font-family: 'Proxima_black';
+    font-size: 144px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.buying {
+    display: flex;
+    justify-content: right;
+}
+
+.btn_to_buy {
+    width: 200px;
+    height: 56px;
+    border: 2px solid #000000;
+    background: none;
+    font-family: 'Proxima_semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn_to_buy:hover {
+    background: black;
+    color: white;
+    transition: .7s;
+}
+
+.product1_mountains {
+    position: static;
+    width: 332px;
+    height: 510px;
+    background: url(../images/main_section/Product1_mountains.png) no-repeat center center;
+    margin-top: -147px;
+    margin-left: 138px;
+}
+
+.product2 {
+    position: static;
+    width: 340px;
+    height: 192px;
+    background: url(../images/main_section/Product2.png) no-repeat center center;
+    margin-top: -767px;
+    margin-left: 638px;
+}
+
+.product3 {
+    position: static;
+    width: 288px;
+    height: 158px;
+    margin-top: 230px;
+    margin-left: 683px;
+    background: url(../images/main_section/Product3.png) no-repeat center center;
+}
+
+.product4_house {
+    position: static;
+    width: 332px;
+    height: 510px;
+    margin-top: -580px;
+    margin-left: 1150px;
+    background: url(../images/main_section/Product4_house.png) no-repeat center center;
+}
+
+.txt_header {
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.art_down {
+    display: flex;
+    margin-top: -25px;
+    justify-content: flex-end;
+    padding-right: 155px;
+}
+
+.art {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px black;
+    -webkit-text-fill-color:transparent;
+    
+}
+
+.on {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px black;
+    -webkit-text-fill-color:transparent;
+    margin-right: 15px;
+}
+
+.stup_art {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.line_under_txt {
+    background-color: black;
+    height: 1px;
+    margin-bottom: 30px;
+    width: 405px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.themes-button {
+    margin-top: 70px;
+}
+
+.themes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 326px;
+}
+
+.card_content {
+    width: 326px;
+    height: 286px;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_name_box {
+    width: 195px;
+    margin: 0 auto;
+}
+
+.card_nametxt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.un {
+    border-bottom: 1px solid black;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn_more {
+    width: 200px;
+    height: 56px;
+    border: 2px solid #000000;
+    background: none;
+    font-family: 'Proxima_semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn_more:hover {
+    background: black;
+    color: white;
+    transition: .7s;
 }

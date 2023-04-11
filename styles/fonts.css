@@ -24,3 +24,9 @@
     font-family: 'Proxima_light';
     src: url(../fonts/proximanova_light.otf) format("truetype");
 }
+
+@font-face {
+    font-family: 'Proxima_semibold';
+    src: url(../fonts/proximanova_semibold.ttf) format("truetype");
+}
+
