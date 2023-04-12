@@ -251,13 +251,37 @@ header {
     
 }
 
+.about-us-head {
+    display: flex;
+    margin-left: 180px;
+}
+
+.about-us-txt1 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px var(--main-color);
+    -webkit-text-fill-color:transparent;
+}
+
+.about-us-txt2 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-left: 10px;
+}
+
 .on {
     font-family: 'Proxima_black';
     font-style: normal;
     font-size: 64px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:1px var(--main-color);
     -webkit-text-fill-color:transparent;
     margin-right: 15px;
 }
@@ -271,12 +295,19 @@ header {
 }
 
 .line_under_txt {
-    background-color: black;
+    background-color: var(--main-color);
     height: 1px;
     margin-bottom: 30px;
     width: 405px;
     margin-left: auto;
     margin-right: 0;
+}
+
+.line_under_txt_about {
+    background-color: var(--main-color);
+    height: 1px;
+    margin-bottom: 30px;
+    width: 430px;
 }
 
 .themes-button {
@@ -347,4 +378,109 @@ header {
     background: black;
     color: white;
     transition: .7s;
+}
+
+.about-us {
+    margin-top: 150px;
+}
+
+.about-us-content {
+    display: flex;
+}
+
+.about-us-txt-but {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.about-us-txt-div {
+    width: 370px;
+}
+
+.about-us-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282825;
+}
+
+.about-us-but {
+    margin-top: 50px;
+    width: 100px;
+    height: 55px;
+}
+
+.arrow-but {
+    width: 100px;
+    height: 55px;
+    border: 2px solid var(--main-color);
+    background: none;
+    cursor: pointer;
+}
+
+.arrow-but:hover {
+    background: black;
+    color: white;
+    transition: .7s;
+}
+
+.about-us-short-info {
+    margin-top: 72px;
+    margin-left: 180px;
+}
+
+.short-info-up-row {
+    display: flex;
+}
+
+.short-info-down-row {
+    display: flex;
+    margin-top: 85px;
+}
+
+.num-head-div {
+    display: flex;
+}
+
+.num-head {
+    font-family: 'Proxima_black';
+    font-size: 64px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.num-lowercase {
+    font-family: 'Proxima_black';
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+.description-info {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--main-color);
+}
+
+.years {
+    margin-left: 105px;
+}
+
+.bought {
+    margin-left: 197px;
+}
+
+.about-us-images {
+    width: 531px;
+    height: 676px;
+    background: url(../images/about_us/Backgr.png) no-repeat center center;
+    margin-top: -70px;
+    margin-left: 200px;
 }
