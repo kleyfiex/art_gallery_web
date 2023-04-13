@@ -21,6 +21,9 @@ header {
     --main-color: black;
 }
 
+button {
+    cursor: pointer;
+}
 
 .container_header {
     display: flex;
@@ -68,6 +71,7 @@ header {
     margin-top: 9px;
     width: 225px;
     height: 90px;
+    margin-left: 50px;
 }
 
 .search_logo {
@@ -251,6 +255,10 @@ header {
     
 }
 
+.about-us {
+    padding-bottom: 100px;
+}
+
 .about-us-head {
     display: flex;
     margin-left: 180px;
@@ -426,8 +434,8 @@ header {
 }
 
 .about-us-short-info {
-    margin-top: 72px;
-    margin-left: 180px;
+    margin-top: 83px;
+    margin-left: 80px;
 }
 
 .short-info-up-row {
@@ -470,11 +478,11 @@ header {
 }
 
 .years {
-    margin-left: 105px;
+    margin-left: 125px;
 }
 
 .bought {
-    margin-left: 197px;
+    margin-left: 215px;
 }
 
 .about-us-images {
@@ -483,4 +491,217 @@ header {
     background: url(../images/about_us/Backgr.png) no-repeat center center;
     margin-top: -70px;
     margin-left: 200px;
+}
+
+.choosing-cost {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.choosing-head {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.choosing-down {
+    display: flex;
+    margin-top: -25px;
+    justify-content: flex-end;
+}
+
+.choose-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-right: 90px;
+}
+
+.po {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px var(--main-color);
+    -webkit-text-fill-color:transparent;
+}
+
+.cost-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-left: 15px;
+}
+
+.cost-content {
+    display: flex;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cost-content-left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.cost-content-right-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.cost-content-card {
+    width: 332px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-cost-txt1 {
+    font-family: 'Proxima_extrabold';
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cost-div {
+    margin: 0 auto;
+    margin-top: 205px;
+}
+
+.card-cost-txt {
+    font-family: 'Proxima_extrabold';
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.price {
+    font-family: 'Proxima_extrabold';
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.under-30000 {
+    background: url(../images/costs/under-30000.png) no-repeat center center;
+}
+
+.under-60000 {
+    background: url(../images/costs/under-60000.png) no-repeat center center;
+}
+
+.under-120000 {
+    margin-top: 150px;
+    background: url(../images/costs/under-120000.png) no-repeat center center;
+}
+
+.under-240000 {
+    margin-top: 150px;
+    background: url(../images/costs/under-240000.png) no-repeat center center;
+}
+
+.btn-next {
+    margin-left: auto;
+    margin-right: 0;
+    width: 100px;
+    height: 60px;
+    margin-top: 45px;
+}
+
+.next {
+    width: 100px;
+    height: 60px;
+    background: none;
+    border: 2px solid white;
+}
+
+.uni {
+    margin-top: 71px;
+}
+
+.unique {
+    background: #ff4823cb ;
+    border: none;
+}
+
+.who-we-content {
+    display: flex;
+}
+
+.who-we-are {
+    padding-top: 100px;
+}
+
+.who-we-description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #282825;
+}
+
+
+.h1 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px var(--main-color);
+    -webkit-text-fill-color:transparent;
+}
+
+.p1 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.who-we-txt {
+    width: 400px;
+    margin-top: 42px;
+}
+
+.who-we-card {
+    border-left: 2px solid var(--main-color);
+    padding-left: 50px;
+    height: 390px;
+}
+
+.who {
+    margin-left: 268px;
+}
+
+.what {
+    margin-left: 302px;
+    margin-top: 200px;
+    height: 370px;
+}
+
+.who-we-content-down {
+    display: flex;
+}
+
+.how {
+    margin-top: 80px;
+    margin-left: 300px;
+    height: 370px;
+}
+
+.who-we-are {
+    background: url(../images/logo_bckgrn.png) no-repeat center right;
 }
