@@ -518,6 +518,15 @@ button {
     margin-right: 90px;
 }
 
+.choosing-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-right: 200px;
+}
+
 .po {
     font-family: 'Proxima_black';
     font-style: normal;
@@ -643,6 +652,7 @@ button {
 
 .who-we-are {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .who-we-description {
@@ -704,4 +714,153 @@ button {
 
 .who-we-are {
     background: url(../images/logo_bckgrn.png) no-repeat center right;
+}
+
+.popular-autors {
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.popular-autors-head {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.popular-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px var(--main-color);
+    -webkit-text-fill-color:transparent;
+}
+
+.autors-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-top: -25px;
+}
+
+.popular-autors-content {
+    margin-top: 70px;
+}
+
+.autors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor-card {
+    text-align: center;
+    width: 210px;
+    height: 335px;
+}
+
+.autor-avatar {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.autor-name {
+    font-size: 24px;
+    line-height: 25px;
+    color: var(--main-color);
+}
+
+.autor-geo {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.choosing-in-style-content {
+    display: flex;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.choosing-in-style {
+    padding-top: 80px;
+}
+
+.line-under-picture {
+    width: 108px;
+    height: 2px;
+    background: #FF4823;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.impressionism-picture {
+    padding: 15px;
+}
+
+.impressionism-picture:hover {
+    border: 2px solid #FF4823;;
+    cursor: pointer;
+}
+
+.street-art-picture {
+    padding: 15px;
+}
+
+.street-art-picture:hover {
+    border: 2px solid #FF4823;;
+    cursor: pointer;
+}
+
+.modern-picture {
+    padding: 15px;
+}
+
+.modern-picture:hover {
+    border: 2px solid #FF4823;;
+    cursor: pointer;
+}
+
+.abstraction-picture {
+    padding: 15px;
+}
+
+.abstraction-picture:hover {
+    border: 2px solid #FF4823;;
+    cursor: pointer;
+}
+
+.style-card-txt {
+    font-family: 'Proxima_semibold';
+    font-size: 36px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card-imperssionism {
+    width: 420px;
+}
+
+.card-street-art {
+    margin-top: 50px;
+    margin-left: -20px;
+    width: 380px;
+}
+
+.card-modern {
+    width: 365px;
+    margin-left: 90px;
+}
+
+.card-abstraction {
+    width: 420px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.style-content-right-column {
+    margin-top: 100px;
 }
