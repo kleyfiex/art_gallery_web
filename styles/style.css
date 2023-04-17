@@ -264,6 +264,14 @@ button {
     margin-left: 180px;
 }
 
+.new-products-head {
+    margin-left: 180px;
+}
+
+.vkontakte-head {
+    margin-left: 180px;
+}
+
 .about-us-txt1 {
     font-family: 'Proxima_black';
     font-style: normal;
@@ -274,6 +282,16 @@ button {
     -webkit-text-fill-color:transparent;
 }
 
+.new-products-txt1 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    -webkit-text-stroke:1px var(--main-color);
+    -webkit-text-fill-color:transparent;
+}
+
+
 .about-us-txt2 {
     font-family: 'Proxima_black';
     font-style: normal;
@@ -281,6 +299,24 @@ button {
     text-transform: uppercase;
     color: var(--main-color);
     margin-left: 10px;
+}
+
+.new-products-txt2 {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-left: 45px;
+    margin-top: -25px;
+}
+
+.vkontakte-txt {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: var(--main-color);
 }
 
 .on {
@@ -784,6 +820,7 @@ button {
 
 .choosing-in-style {
     padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .line-under-picture {
@@ -863,4 +900,241 @@ button {
 
 .style-content-right-column {
     margin-top: 100px;
+}
+
+.new-products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.left-arrow:hover {
+    cursor: pointer;
+}
+
+.right-arrow:hover {
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.new-product-content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.new-product-card {
+    width: 318px;
+    height: 535px;
+}
+
+.new-card-content {
+    width: 318px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+.shadow {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+}
+
+.new-card-content-up-row {
+    display: flex;
+    align-items: center;
+    width: 282px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.new-card-content-img {
+    width: 222px;
+    margin: 0 auto;
+}
+
+.new-txt {
+    font-family: 'Proxima_extrabold';
+    font-size: 16px;
+    color: #FF4823;
+}
+
+.heart-svg {
+    cursor: pointer;
+}
+
+.card-txt-cost {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.autor-name-txt {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.name-picture {
+    font-family: 'Proxima_semibold';
+    font-size: 18px;
+    color: var(--main-color);
+    margin-bottom: 5px;
+}
+
+.size-picture {
+    font-size: 14px;
+    color: #333333;
+}
+
+.line-under-size {
+    width: 160px;
+    height: 1px;
+    background-color: #FF4823;
+    margin-top: 5px;
+}
+
+.picture-cost-add {
+    width: 160px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.picture-cost {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.add-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: url(../images/shopping_bag.svg) no-repeat center center;
+    cursor: pointer;
+}
+
+.add-picture:hover {
+    border: 1px solid #FF4823;
+}
+
+.skidka {
+    width: 48px;
+    height: 25px;
+    border: 2px solid #FF4823;
+    text-align: center;
+}
+
+.new-skidka {
+    font-family: 'Proxima_semibold';
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF4823;
+    margin-top: 5px;
+}
+
+.vkontakte {
+    padding-top: 50px;
+}
+
+.vkontakte-content-head {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.vk-link {
+    font-family: 'Proxima_semibold';
+    font-size: 18px;
+    color: var(--main-color);
+    line-height: 18px;
+}
+
+.vk-link-description {
+    font-size: 18px;
+    color: #282825;
+    line-height: 26px;
+}
+
+.follow_btn {
+    width: 100px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+.follow {
+    width: 100px;
+    height: 55px;
+    border: 2px solid var(--main-color);
+    background: none;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background: black;
+    color: white;
+    transition: .7s;
+}
+
+.grid-photo {
+    width: 288px;
+    height: 288px;
+    margin-bottom: 50px;
+}
+
+.vkontakte-content-grid {
+    width: 965px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.first_rect {
+    background: url(../images/vkontakte/1rect.png) no-repeat center center;
+}
+
+.second_rect {
+    background: url(../images/vkontakte/2rect.png) no-repeat center center;
+}
+
+.third_rect {
+    background: url(../images/vkontakte/3rect.png) no-repeat center center;
+}
+
+.fourth_rect {
+    background: url(../images/vkontakte/4rect.png) no-repeat center center;
+}
+
+.five_rect {
+    background: url(../images/vkontakte/5rect.png) no-repeat center center;
+}
+
+.six_rect {
+    background: url(../images/vkontakte/6rect.png) no-repeat center center;
+}
+
+.seven_rect {
+    background: url(../images/vkontakte/7rect.png) no-repeat center center;
+}
+
+.eight_rect {
+    background: url(../images/vkontakte/8rect.png) no-repeat center center;
+}
+
+.nine_rect {
+    background: url(../images/vkontakte/9rect.png) no-repeat center center;
 }
