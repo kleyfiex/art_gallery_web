@@ -1048,6 +1048,7 @@ button {
 
 .vkontakte {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .vkontakte-content-head {
@@ -1137,4 +1138,151 @@ button {
 
 .nine_rect {
     background: url(../images/vkontakte/9rect.png) no-repeat center center;
+}
+
+.skidka-subscribe {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.skidka-content {
+    display: flex;
+    align-items: center;
+}
+
+#email-subscribe {
+    display: flex;
+}
+
+.left-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--main-color);
+}
+
+.right-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--main-color);
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.number-of-skidka {
+    font-family: 'Proxima_black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-left: 100px;
+}
+
+.percent {
+    font-family: 'Proxima_regular';
+    font-weight: 400;
+}
+
+.div-take {
+    width: 190px;
+    margin-left: 65px;
+}
+
+.take {
+    font-family: 'Proxima_extrabold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: var(--main-color);
+    
+}
+
+.div-email-subscribe {
+    margin-left: 60px;
+}
+
+.email_box {
+    width: 330px;
+    height: 45px;
+    padding-left: 15px;
+    border: 1px solid lightgray;
+    outline:none;
+    font-family: "Proxima_regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+
+.subscribe-box {
+    width: 150px;
+    height: 45px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 47px;
+    background-color: var(--main-color);
+    font-family: 'Proxima_semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 3px;
+}
+
+.content-without-lines {
+    display: flex;
+    margin-left: 140px;
+}
+
+.have-question {
+    padding-top: 70px;
+}
+
+.have-question-content {
+    display: flex;
+}
+
+.eyes {
+    width: 183px;
+    height: 85px;
+    background: url(../images/eye.png) no-repeat center center;
+    margin: 0 auto;
+}
+
+.left-column-have-question {
+    width: 900px;
+}
+
+.left-column-have-question-content {
+    width: 315px;
+    height: 245px;
+    margin: 0 auto;
+}
+
+.line-under-eyes {
+    width: 228px;
+    height: 1px;
+    background-color: var(--main-color);
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.we-help {
+    width: 315px;
+    height: 90px;
+    margin-top: 35px;
+}
+
+.we-help-txt {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
 }
